@@ -7,8 +7,82 @@
     {{ include('menu.html.twig') }}
 
     <main>
-        <div class="py-5 text-center mt-5">
-            <p> Page d'Accueil WIP</p>
+        <div class="container">
+            <div class="py-5 text-center mt-5 container">
+                <h1> Bienvenue!</h1>
+				<figure>
+					<img src="{{asset('ressource/images/corbeau.png')}}" width= 500px alt= "grand corbeau">
+					<figcaption> Source  : <a href= "https://pixabay.com/fr/illustrations/grand-corbeau-corbeau-oiseau-6293659/"> pixaby.com grand corbeau </a> </figcaption>
+				</figure>
+            </div>
+
+            <div>
+                <h2>
+                    Confusion commune
+                </h2>
+
+                <p>Pour introduire ce site, j'aimerais dans un premier temps vous parler de confusion qui arrive régulièrement
+				entre le corbeau, la corneille noire et le choucas des tours.</p>
+
+				<h3> Différence entre le corbeau et la corneille noire </h3>
+				<figure class="text-center">
+					<img src="{{asset('ressource/images/corneille.jpg')}}" width= 600px alt= "corneille noire">
+					<figcaption> Source  : <a href= ""> pixaby.com corneille noire </a> </figcaption>
+				</figure>
+				<h3> Différence entre le corbeau et le choucas </h3>
+				<figure class="text-center">
+					<img src="{{asset('ressource/images/choucas.jpg')}}" width= 600px alt= "choucas des tours">
+					<figcaption> Source  : <a href= "https://pixabay.com/fr/photos/choucas-des-tours-oiseau-black-t%c3%aate-3528869/"> pixaby.com choucas des tours </a> </figcaption>
+				</figure>
+                <h3> Différences de cri entre les corbeaux, les choucas et les corneilles </h3>
+                <ul>
+                    <li>Choucas :
+						<audio controls src="{{ asset('ressource/sound/choucas.mp3') }}"> </audio>
+						<p> Source : <a href ='https://fr.wikipedia.org/wiki/Choucas_des_tours'> Wikipédia :Choucas des tours </a> </p>
+                    </li>
+
+                    <li>Corbeau :
+						<audio controls src="{{ asset('ressource/sound/corbeau.mp3') }}"> </audio>
+						<p> Source : <a href ='https://www.sound-fishing.net/sons/corbeau-corneille'> Sound-fishing </a> </p>
+                    </li>
+
+                    <li>Corneille noire :
+						<audio controls src="{{ asset('ressource/sound/corneille.mp3') }}"> </audio>
+						<p> Source : <a href ='https://lasonotheque.org/detail-0956-corneilles-2.html'> lasonothèque </a> </p>
+                    </li>
+                </ul>
+            </div>
+
+			<div>
+				<h2>Le corbeau: un oiseau intelligent </h2>
+
+				<h3>Le corbeau et l'utilisation d'outils </h3>
+
+				<h3>Test d'intelligence pour corbeau </h3>
+
+				<h3>Le corbeau et l'art d'imiter les sons</h3>
+			</div>
+
+			<div>
+				<h2> Le corbeau dans son milieu naturel </h2>
+
+				<h3> Un oiseau opportuniste </h3>
+
+				<h3> Un oiseau farceur </h3>
+
+				<h3>
+			</div>
+
+			<div>
+				<h2>Contenu du site </h2>
+
+				<h3>Le cobreau dans la culture </h3>
+
+				<h3>Les différentes espèces de corbeau</h3>
+
+				<h3>Forum pour échanger entre vous </h3>
+			</div>
+
         </div>
     </main>
 
