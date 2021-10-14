@@ -1,4 +1,6 @@
-# siteCorbeau
+# Projet mis en stand by le temps de se former plus en profondeur sur Bootstrap/Symfony à l'aide de mooc
+
+# Site Corbeau
 Premier site fait avec Symfony: site sur les corbeaux rertoriant leur apparence dans diverses cultures, les différentes espèces connus et un forum pour créer des articles sur les corbeaux
 
 # A faire pour tester le site:
