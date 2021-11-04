@@ -1,17 +1,17 @@
 @import "custom";
 @import "bootstrap/scss/bootstrap";
 
+main{
+    background-color: $background;
+}
+
 body{
 	background-color: $primary;
 }
-main {
-    background-color: $secondary;
-}
 
-footer a{
-	color: $secondary;
+a{
+	color: $blank;
 }
-
-footer a:hover{
+a:hover{
 	color: $light;
 }
