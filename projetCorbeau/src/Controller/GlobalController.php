@@ -19,5 +19,53 @@ class GlobalController extends AbstractController
 	{
 		return $this->render("accueil.html.twig");
 	}
+
+	/**
+	* @Route
+	*(
+	* "/inscription",
+	* name = "inscription"
+	*)
+	*/
+	public function inscription(): Response
+	{
+		return $this->render("formulaire/inscription.html.twig");
+	}
+
+	/**
+	* @Route
+	*(
+	* "/connexion",
+	* name = "connexion"
+	*)
+	*/
+	public function connexion(): Response
+	{
+		return $this->render("formulaire/connexion.html.twig");
+	}
+
+	/**
+	* @Route
+	*(
+	* "/similaire",
+	* name = "similaire"
+	*)
+	*/
+	public function similaire(): Response
+	{
+		return $this->render("similaire.html.twig");
+	}
+
+	/**
+	* @Route
+	*(
+	* "/predateur",
+	* name = "predateur"
+	*)
+	*/
+	public function predateur(): Response
+	{
+		return $this->render("predateur.html.twig");
+	}
 }
 ?>
