@@ -1,8 +1,8 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-	<a class="navbar-brand" href="/">Accueil </a>
 
-	<div class="collapse navbar-collapse container-fluid">
+	<div class="container-fluid">
 		<ul class="navbar-nav mr-auto">
+			<a class="navbar-brand" href="/"> Accueil </a>
 			<li class="nav-item dropdown" >
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					Culture
@@ -69,12 +69,17 @@
 				<a class="nav-link" href="/forum">Forum </a>
 			</li>
 		</ul>
-
-		<form class="d-flex" action="/inscription">
-			<button type="submit" class="btn btn-outline-light" onclick="window.location.href = '/inscription';">Inscription </button>
-		</form>
-		<form class="d-flex" action="/connexion">
-			<button class="btn btn-outline-light" onclick="window.location.href = '*/connexion';">Connexion</button>
-		</form>
+		<div class=row>
+			<div class="col-sm">
+				<form action="/inscription">
+					<button type="submit" class="btn btn-outline-light" onclick="window.location.href = '/inscription';">Inscription </button>
+				</form>
+			</div>
+			<div class="col-sm">
+				<form action="/connexion">
+					<button class="btn btn-outline-light" onclick="window.location.href = '*/connexion';">Connexion</button>
+				</form>
+			</div>
+		</div>
 	</div>
  </nav>
